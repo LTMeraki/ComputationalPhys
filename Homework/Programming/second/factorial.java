@@ -23,7 +23,7 @@ public class factorial {
             }
             System.out.println("\nThe factorial of " + number + " is " + factorial+".\n");          
         } else {
-            System.out.println("\nUps! Factorial is not defined for l delnegative numbers.\n");
+            System.out.println("\nUps! Factorial is not defined for negative numbers.\n");
         }
     }
 }
