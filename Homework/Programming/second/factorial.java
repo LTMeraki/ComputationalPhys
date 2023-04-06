@@ -8,7 +8,6 @@ import java.util.Scanner;
 // The factorial class containing the main method within it is defined.
 public class factorial {  
     public static void main(String[] args) { 
-
         // The input object reads the input data.
         Scanner input = new Scanner(System.in); 
         System.out.println("\nWelcome to the Factorial Calculator!\n");
