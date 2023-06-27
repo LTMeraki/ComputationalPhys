@@ -33,7 +33,7 @@ int main() {
     ofstream plot("plot.gp", ios::trunc);
 
     // Output table header to file.
-    file << fixed << setw(7) << "t (s)" << setw(12) << "y (m)" << setw(15) << "v (m/s)" << setw(13) << "y_t (m)" << setw(15) << "v_t (m/s)\n";
+        file << fixed << setw(7) << "t (s)"<< "," << setw(12) << "y (m)" << "," << setw(15) << "v (m/s)"<< "," << setw(13) << "y_t (m)" << "," << setw(15) << "v_t (m/s)\n";
 
     // The values calculated by the above mentioned methods are stored in the vectors t, y, v, yt, and vt, and written to the output "file". The loop condition is that the positions are greater than or equal to zero.
     for (int i = 0; y[i] >= 0 && yt[i] >=0; i++) {
